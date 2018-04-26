@@ -1,0 +1,436 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/43/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 24 22:33:23 PDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1222 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Germany, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Germany expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2024453272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2024453272'><pre>java.lang.AssertionError: Germany expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Norway, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Norway expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace536765369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace536765369'><pre>java.lang.AssertionError: Norway expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Finland, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Finland expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2085002312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2085002312'><pre>java.lang.AssertionError: Finland expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Hong Kong (English), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Hong Kong (English) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2129221032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2129221032'><pre>java.lang.AssertionError: Hong Kong (English) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Russia, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Russia expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1224347463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1224347463'><pre>java.lang.AssertionError: Russia expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Taiwan, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Taiwan expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1580297332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1580297332'><pre>java.lang.AssertionError: Taiwan expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Portugal, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Portugal expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1966250569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1966250569'><pre>java.lang.AssertionError: Portugal expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Belgium (French), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Belgium (French) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1125381564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1125381564'><pre>java.lang.AssertionError: Belgium (French) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Japan, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Japan expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace511717113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace511717113'><pre>java.lang.AssertionError: Japan expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Denmark, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Denmark expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2005733474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2005733474'><pre>java.lang.AssertionError: Denmark expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Luxembourg, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Luxembourg expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace521081105", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace521081105'><pre>java.lang.AssertionError: Luxembourg expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Switzerland (German), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Switzerland (German) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1448247698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1448247698'><pre>java.lang.AssertionError: Switzerland (German) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=France, status=n]</td>
+<td><div><pre>java.lang.AssertionError: France expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace158199555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace158199555'><pre>java.lang.AssertionError: France expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=New Zealand, status=n]</td>
+<td><div><pre>java.lang.AssertionError: New Zealand expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace517052730", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace517052730'><pre>java.lang.AssertionError: New Zealand expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Hungary, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Hungary expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2035070981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2035070981'><pre>java.lang.AssertionError: Hungary expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Brazil, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Brazil expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1019384604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1019384604'><pre>java.lang.AssertionError: Brazil expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Hong Kong (Chinese), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Hong Kong (Chinese) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace963110412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace963110412'><pre>java.lang.AssertionError: Hong Kong (Chinese) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Sweden, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Sweden expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1219161283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1219161283'><pre>java.lang.AssertionError: Sweden expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Singapore, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Singapore expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2061347276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2061347276'><pre>java.lang.AssertionError: Singapore expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=United Kingdom, status=n]</td>
+<td><div><pre>java.lang.AssertionError: United Kingdom expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1128096251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1128096251'><pre>java.lang.AssertionError: United Kingdom expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Switzerland (French), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Switzerland (French) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1259652483", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1259652483'><pre>java.lang.AssertionError: Switzerland (French) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Belgium (Dutch), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Belgium (Dutch) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1306324352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1306324352'><pre>java.lang.AssertionError: Belgium (Dutch) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Ireland, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Ireland expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace782378927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace782378927'><pre>java.lang.AssertionError: Ireland expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Canada (English), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Canada (English) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace910091170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace910091170'><pre>java.lang.AssertionError: Canada (English) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=United States, status=n]</td>
+<td><div><pre>java.lang.AssertionError: United States expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2041605291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2041605291'><pre>java.lang.AssertionError: United States expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=United Arab Emirates, status=n]</td>
+<td><div><pre>java.lang.AssertionError: United Arab Emirates expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2136288211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2136288211'><pre>java.lang.AssertionError: United Arab Emirates expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=South Korea, status=n]</td>
+<td><div><pre>java.lang.AssertionError: South Korea expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1175259735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1175259735'><pre>java.lang.AssertionError: South Korea expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=China, status=n]</td>
+<td><div><pre>java.lang.AssertionError: China expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace293907205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace293907205'><pre>java.lang.AssertionError: China expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Italy, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Italy expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace345902941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345902941'><pre>java.lang.AssertionError: Italy expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Mexico, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Mexico expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace796667727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace796667727'><pre>java.lang.AssertionError: Mexico expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Malaysia, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Malaysia expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace251210093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace251210093'><pre>java.lang.AssertionError: Malaysia expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Spain, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Spain expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2021707251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2021707251'><pre>java.lang.AssertionError: Spain expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Canada (French), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Canada (French) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace479397964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace479397964'><pre>java.lang.AssertionError: Canada (French) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Thailand (English), status=n]</td>
+<td><div><pre>java.lang.AssertionError: Thailand (English) expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace283717519", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace283717519'><pre>java.lang.AssertionError: Thailand (English) expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Austria, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Austria expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2025221430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025221430'><pre>java.lang.AssertionError: Austria expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Australia, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Australia expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace200224114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace200224114'><pre>java.lang.AssertionError: Australia expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Thailand, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Thailand expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace581318631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581318631'><pre>java.lang.AssertionError: Thailand expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Czech Republic, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Czech Republic expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace487694075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace487694075'><pre>java.lang.AssertionError: Czech Republic expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Philippines, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Philippines expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1989184704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1989184704'><pre>java.lang.AssertionError: Philippines expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Vietnam, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Vietnam expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace889486595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace889486595'><pre>java.lang.AssertionError: Vietnam expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Poland, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Poland expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1990160809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1990160809'><pre>java.lang.AssertionError: Poland expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Netherlands, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Netherlands expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1524960486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1524960486'><pre>java.lang.AssertionError: Netherlands expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Turkey, status=n]</td>
+<td><div><pre>java.lang.AssertionError: Turkey expected [n] but found [y]
+</pre></div><a href='#' onClick='toggleBox("stack-trace199640888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace199640888'><pre>java.lang.AssertionError: Turkey expected [n] but found [y]
+</pre></div></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.status.APIAutomation.testURL()'><b>testURL</b><br>Test class: com.api.status.APIAutomation<br>Parameters: CountryStatus [name=Indonesia, status=y]</td>
+<td></td>
+<td>0</td>
+<td>com.api.status.APIAutomation@4cc0edeb</td></tr>
+</table><p>
+</body>
+</html>

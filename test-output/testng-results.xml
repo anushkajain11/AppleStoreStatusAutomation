@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="43" ignored="0" total="44" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1222" started-at="2018-04-25T05:33:23Z" finished-at="2018-04-25T05:33:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1222" started-at="2018-04-25T05:33:23Z" finished-at="2018-04-25T05:33:25Z">
+      <class name="com.api.status.APIAutomation">
+        <test-method status="PASS" signature="DataGenerator()[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="DataGenerator" is-config="true" duration-ms="976" started-at="2018-04-25T05:33:23Z" finished-at="2018-04-25T05:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataGenerator -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="5" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Germany, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Germany expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Germany expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Norway, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Norway expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Norway expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Finland, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Finland expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Finland expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Hong Kong (English), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Hong Kong (English) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Hong Kong (English) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Russia, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Russia expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Russia expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Taiwan, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Taiwan expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Taiwan expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Portugal, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Portugal expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Portugal expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Belgium (French), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Belgium (French) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Belgium (French) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Japan, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Japan expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Japan expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Denmark, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Denmark expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Denmark expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Luxembourg, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Luxembourg expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Luxembourg expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Switzerland (German), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Switzerland (German) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Switzerland (German) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=France, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[France expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: France expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=New Zealand, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[New Zealand expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: New Zealand expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Hungary, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Hungary expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Hungary expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Brazil, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Brazil expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Brazil expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Hong Kong (Chinese), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Hong Kong (Chinese) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Hong Kong (Chinese) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Sweden, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Sweden expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Sweden expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Singapore, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Singapore expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Singapore expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=United Kingdom, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[United Kingdom expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: United Kingdom expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Switzerland (French), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Switzerland (French) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Switzerland (French) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Belgium (Dutch), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Belgium (Dutch) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Belgium (Dutch) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="PASS" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Indonesia, status=y]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Ireland, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ireland expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ireland expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Canada (English), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Canada (English) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Canada (English) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=United States, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[United States expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: United States expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=United Arab Emirates, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[United Arab Emirates expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: United Arab Emirates expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=South Korea, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[South Korea expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: South Korea expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=China, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[China expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: China expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Italy, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Italy expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Italy expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Mexico, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mexico expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mexico expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Malaysia, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Malaysia expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Malaysia expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Spain, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Spain expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Spain expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Canada (French), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Canada (French) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Canada (French) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Thailand (English), status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Thailand (English) expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Thailand (English) expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Austria, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Austria expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Austria expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Australia, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Australia expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Australia expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Thailand, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Thailand expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Thailand expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Czech Republic, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Czech Republic expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Czech Republic expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Philippines, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Philippines expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Philippines expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Vietnam, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Vietnam expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Vietnam expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="0" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Poland, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Poland expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Poland expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Netherlands, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Netherlands expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Netherlands expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method status="FAIL" signature="testURL(com.api.status.CountryStatus)[pri:0, instance:com.api.status.APIAutomation@4cc0edeb]" name="testURL" duration-ms="1" started-at="2018-04-25T05:33:25Z" data-provider="Generator" finished-at="2018-04-25T05:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CountryStatus [name=Turkey, status=n]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Turkey expected [n] but found [y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Turkey expected [n] but found [y]
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+      </class> <!-- com.api.status.APIAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
